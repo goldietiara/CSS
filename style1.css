@@ -105,7 +105,7 @@ content > padding > border > margin */
   width: 600px;
 }
 
-/* cascade 
+/* cascade // specificity // inherit
 if we had 2 or more elemet selector (with the same elemet), it will applied the last elemet selector
 unless if ure using class selector then it will go with the class selector, cuz class selector is more spesific
 even if the last selector is the element selector, but if there is an id selector then it will applied to the id selector
@@ -146,4 +146,25 @@ h5 {
 }
 h5 {
   color: #87cefa !important;
+}
+
+/* styling tables */
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+}
+
+th,
+td {
+  border-bottom: 3px solid #ffffff;
+  padding: 20px;
+  color: #483d8b;
+  background-color: #e6e6fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+  font-size: 15pt;
 }
