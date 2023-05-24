@@ -74,3 +74,20 @@ vscode had an auto completing web safe fonts for a few fonrt families*/
   line-height: 4;
   letter-spacing: 1px;
 }
+
+/* list styles 
+disc    = default
+circle  = hollow disk (?) like dounuts..
+squere  = square
+none    = to remove the bulet point
+
+it has default spacing, to remove it set the margin and padding to 0
+*/
+.StyLists {
+  background-color: #ffddd9;
+  color: white;
+  font-size: 19pt;
+  list-style-type: square;
+  /* margin: 0;
+  padding: 0; */
+}
