@@ -41,3 +41,20 @@ color: u can use HEX, RGB, or Color Name*/
   color: white;
   font-size: 19pt;
 }
+
+/* fontstyles
+some browser or operating system might not support your font (if its too unique)
+hence we'll add web safe font as a backup font
+
+vscode had an auto completing web safe fonts for a few fonrt families*/
+
+.fstyle1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.fstyle2 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 25pt;
+}
