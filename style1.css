@@ -26,7 +26,7 @@ color: u can use HEX, RGB, or Color Name*/
 }
 /* Color Name*/
 .ColName {
-  color: Gainsboro;
+  color: PeachPuff;
 }
 
 /* div */
@@ -48,13 +48,29 @@ hence we'll add web safe font as a backup font
 
 vscode had an auto completing web safe fonts for a few fonrt families*/
 
-.fstyle1 {
+.FStyle1 {
   font-family: "Courier New", Courier, monospace;
 }
-.fstyle2 {
+.FStyle2 {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
-  font-weight: bold;
+  font-weight: lighter;
   text-decoration: underline;
   font-size: 25pt;
+}
+
+/* test layout properties */
+.LayProp1 {
+  background-color: #e6e6fa;
+  color: #9370db;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+.LayProp2 {
+  background-color: #f5f5dc;
+  color: #808000;
+  text-align: right;
+  line-height: 4;
+  letter-spacing: 1px;
 }
