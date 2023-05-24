@@ -1,0 +1,14 @@
+/* esternal stylesheet 
+is the most common and usefull method
+we can link a single file css to many html files
+
+CSS selectors:
+1. h1{}        = type selector or an elemet selector, only select with the same element
+2. #id{}       = id selector, select the element with the same id
+3. .class{}    = class selector, select the elemet with the same class name
+4. *{}         = universal selector, select all the element, usualy used to reset properties that the browser adds by default 
+*/
+
+.exstyle {
+  color: LightSkyBlue;
+}

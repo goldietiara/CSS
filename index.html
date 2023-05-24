@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style1.css" />
     <title>Learning CSS XD</title>
+    <!-- internal stylesheet 
+    less efecient for multiple html cuz have to maintain the the styles on every html pages
+    usualy used if ure just using 1 html file-->
+    <style>
+      h2 {
+        color: #ffdab9;
+      }
+    </style>
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
     <!-- inline styles 
     usualy used for for ex: styling for emails temp or styling content on content management sys-->
     <h1 style="color: pink">ଘ(੭*ˊᵕˋ)੭* Inline Styles</h1>
 
-    <!-- internal stylesheed -->
+    <!-- internal stylesheet -->
+    <h2>ଘ(✿˵•́ ᴗ •̀˵) internal sylesheet</h2>
 
-    <h1></h1>
+    <!-- external stylesheet (using sperate files of css) -->
+    <h2 class="exstyle">ଘ(✿˵•́ ᴗ •̀˵) external sylesheet</h2>
   </body>
 </html>
