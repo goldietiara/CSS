@@ -104,3 +104,46 @@ content > padding > border > margin */
   height: 100px;
   width: 600px;
 }
+
+/* cascade 
+if we had 2 or more elemet selector (with the same elemet), it will applied the last elemet selector
+unless if ure using class selector then it will go with the class selector, cuz class selector is more spesific
+even if the last selector is the element selector, but if there is an id selector then it will applied to the id selector
+
+!!the point it he will be applied to a more specific selector!!
+so it will goes like this: 
+1. (if any selector added) !important
+2. inline style
+3. id
+4. class
+5. elemet
+*/
+h3 {
+  color: #66cdaa;
+}
+h3 {
+  color: #87cefa;
+}
+
+.class {
+  color: #66cdaa;
+}
+#id {
+  color: #d8bfd8;
+}
+h4 {
+  color: #87cefa;
+}
+
+.class {
+  color: #66cdaa;
+}
+#id {
+  color: #d8bfd8;
+}
+h5 {
+  color: #faf287;
+}
+h5 {
+  color: #87cefa !important;
+}
