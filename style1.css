@@ -9,6 +9,24 @@ CSS selectors:
 4. *{}         = universal selector, select all the element, usualy used to reset properties that the browser adds by default 
 */
 
-.exstyle {
+.ExStyle {
   color: LightSkyBlue;
+}
+
+/* style decleration 
+color: u can use HEX, RGB, or Color Name*/
+
+/* HEX */
+.HEX {
+  color: #e6e6fa;
+}
+/* RGB*/
+.RGB {
+  color: white;
+  background-color: rgb(152, 251, 152);
+}
+/* Color Name*/
+.ColName {
+  color: white;
+  background-color: Gainsboro;
 }
