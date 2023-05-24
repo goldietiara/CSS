@@ -18,15 +18,26 @@ color: u can use HEX, RGB, or Color Name*/
 
 /* HEX */
 .HEX {
-  color: #e6e6fa;
+  color: #cacafc;
 }
 /* RGB*/
 .RGB {
-  color: white;
-  background-color: rgb(152, 251, 152);
+  color: rgb(152, 251, 152);
 }
 /* Color Name*/
 .ColName {
+  color: Gainsboro;
+}
+
+/* div */
+.div {
+  background-color: #fbe3eb;
   color: white;
-  background-color: Gainsboro;
+  font-size: 19pt;
+}
+/* span */
+.span {
+  background-color: #ffe4e1;
+  color: white;
+  font-size: 19pt;
 }
