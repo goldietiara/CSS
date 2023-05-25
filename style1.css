@@ -174,27 +174,74 @@ td {
 }
 
 /* display 
-block = select the full width of the screen
-inline = only select the nesessary width
-none = content is hidden (not going to be display)*/
-
-.content1 {
+block   = select the full width of the screen
+inline  = only select the nesessary width
+none    = content is hidden (not going to be display)*/
+.display1 {
   border: 5px solid #f0fff0;
   font-size: 19pt;
   color: #ffc0cb;
   margin-bottom: 10px;
-  /* display: block; */
 }
-.content2 {
+.display2 {
   border: 5px solid #fff0f5;
   font-size: 19pt;
   color: #dda0dd;
-  display: inline;
   margin-bottom: 10px;
+  display: inline;
 }
-.content3 {
+.display3 {
   border: 5px solid #e0ffff;
   font-size: 19pt;
   color: #afeeee;
   margin-bottom: 10px;
+}
+
+/* layout 
+position ststic    = position according to the normar flow of the page
+position relative  = relative to its normal position, the original position will left a gap on the page and cannot be field
+position fixed     = position that relative to the view board, usualy used of navbar
+position absolute  = position will stay according to the given position (the first view board (?))
+*/
+
+.layout1 {
+  background-color: #fff0f5;
+  font-size: 19pt;
+  color: #dda0dd;
+  margin-bottom: 10px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.layout2 {
+  background-color: #fffff0;
+  font-size: 19pt;
+  color: #ffc0cb;
+  margin-bottom: 10px;
+  position: static;
+}
+.layout3 {
+  background-color: #e0ffff;
+  font-size: 19pt;
+  color: #40e0d0;
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.layout4 {
+  background-color: #e0ffff;
+  font-size: 19pt;
+  color: #40e0d0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.layoutContainer {
+  position: relative;
+  top: 100px;
+  width: 900px;
+  height: 300px;
+  background-color: #dda0dd;
 }
