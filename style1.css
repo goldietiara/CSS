@@ -239,9 +239,67 @@ position absolute  = position will stay according to the given position (the fir
   right: 0px;
 }
 .layoutContainer {
+  margin-bottom: 100px;
   position: relative;
   top: 100px;
   width: 900px;
-  height: 300px;
+  height: 100px;
   background-color: #dda0dd;
+}
+
+/* CSS units 
+em    = font size (of the parent or elemet itself) other case: witdh
+        1em equal one size of the elemet, of its parent
+ex    = x-height of the element's font
+ch    = the advance measure (width) of the glyph "0" of the element's font
+rem   = for size of the foot element
+        1rem equal to one size of the html elemet, which is 16px BY DEFAULT
+1h    = line height of the element
+vw    = 1% of the view point's width
+        % of the viewport width
+vh    = 1% of the view point's height
+        % of the viewport height
+vmin  = 1% of the view point's smaller dimention
+vmax  = 1% of the view point's larger dimention
+*/
+
+.unitsContainer {
+  margin: 10px;
+  border: 10px solid #f0fff0;
+  padding: 10px;
+  height: 600px;
+  width: 800px;
+  background-color: #fff0f5;
+  color: #66cdaa;
+  text-align: center;
+}
+.unitsEm {
+  padding-bottom: 10px;
+  background-color: #66cdaa;
+  color: #f0fff0;
+  font-size: 20px;
+  height: 3em;
+}
+.emChild {
+  padding-bottom: 10px;
+  color: #f0fff0;
+  font-size: 1.3em;
+}
+.unitsRem {
+  color: #66cdaa;
+  font-size: 2rem;
+}
+.unitsVh {
+  padding-bottom: 10px;
+  background-color: #66cdaa;
+  color: #f0fff0;
+  font-size: 20px;
+  height: 50vh;
+}
+.unitsVw {
+  padding-bottom: 10px;
+  background-color: #66cdaa;
+  color: #f0fff0;
+  font-size: 20px;
+  width: 50vw;
 }
