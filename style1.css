@@ -172,3 +172,29 @@ th {
 td {
   color: #9370db;
 }
+
+/* display 
+block = select the full width of the screen
+inline = only select the nesessary width
+none = content is hidden (not going to be display)*/
+
+.content1 {
+  border: 5px solid #f0fff0;
+  font-size: 19pt;
+  color: #ffc0cb;
+  margin-bottom: 10px;
+  /* display: block; */
+}
+.content2 {
+  border: 5px solid #fff0f5;
+  font-size: 19pt;
+  color: #dda0dd;
+  display: inline;
+  margin-bottom: 10px;
+}
+.content3 {
+  border: 5px solid #e0ffff;
+  font-size: 19pt;
+  color: #afeeee;
+  margin-bottom: 10px;
+}
