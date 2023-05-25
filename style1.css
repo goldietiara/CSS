@@ -59,7 +59,7 @@ vscode had an auto completing web safe fonts for a few fonrt families*/
   font-size: 25pt;
 }
 
-/* test layout properties */
+/* text layout properties */
 .LayProp1 {
   background-color: #e6e6fa;
   color: #9370db;
@@ -149,7 +149,6 @@ h5 {
 }
 
 /* styling tables */
-
 table {
   border-collapse: collapse;
   width: 60%;
@@ -203,7 +202,6 @@ position relative  = relative to its normal position, the original position will
 position fixed     = position that relative to the view board, usualy used of navbar
 position absolute  = position will stay according to the given position (the first view board (?))
 */
-
 .layout1 {
   background-color: #fff0f5;
   font-size: 19pt;
@@ -262,7 +260,6 @@ vh    = 1% of the view point's height
 vmin  = 1% of the view point's smaller dimention
 vmax  = 1% of the view point's larger dimention
 */
-
 .unitsContainer {
   margin: 10px;
   border: 10px solid #f0fff0;
@@ -302,4 +299,36 @@ vmax  = 1% of the view point's larger dimention
   color: #f0fff0;
   font-size: 20px;
   width: 50vw;
+}
+
+/* math property function
+can be used as property values */
+.mathCalc {
+  height: calc(50vh - 300px);
+  padding-bottom: 10px;
+  background-color: #e6e6fa;
+  color: #9370db;
+  text-align: center;
+}
+.noMath {
+  height: 200px;
+  padding-bottom: 10px;
+  background-color: #e0ffff;
+  color: #00ced1;
+  text-align: center;
+}
+.mathMax {
+  height: max(50vh, 200px);
+  padding-bottom: 10px;
+  background-color: #fffff0;
+  color: #ffdead;
+  text-align: center;
+}
+.mathMin {
+  height: min(50vh, 200px);
+  /* reduce 50% */
+  padding-bottom: 10px;
+  background-color: #fffafa;
+  color: #9370db;
+  text-align: FFB6C1;
 }
